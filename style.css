@@ -131,6 +131,37 @@ Header .logo{
 }
 /*Hero*/
 
+/*AboutUs*/
+.AboutUs{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color:#001F3F;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.AboutUs img{
+
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.AboutUs .paragraph{
+    color: white;
+    text-align: justify;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 60px;
+    max-width: 570px;
+}
+/*AboutUs*/
 
 @media (min-width: 810px) {
 
@@ -190,5 +221,12 @@ Header .logo{
         padding-bottom: 200px;
     }
     /*Hero*/
+
+    /*AboutUs*/
+    .AboutUs{
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+    /*AboutUs*/
 
 }
