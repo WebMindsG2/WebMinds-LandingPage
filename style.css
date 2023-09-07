@@ -84,6 +84,54 @@ Header .logo{
 }
 /*Header*/
 
+/*Hero*/
+.Hero{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 450px;
+    background-color:#FFD700;
+    background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.6),
+            rgba(0,0,0,0.1)
+    ),
+    url('image-hero/hero-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.Hero button{
+
+
+    font-family: poppins;
+    font-size: 15px;
+    height: 40px;
+    width: 120px;
+    background-color: #9cecef;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.Hero button:hover{
+
+    background-color: #F6EB0F;
+
+}
+
+.Hero h1{
+
+    color: antiquewhite;
+    padding-bottom: 50px;
+}
+/*Hero*/
+
+
 @media (min-width: 810px) {
 
      /*Header*/
@@ -135,5 +183,12 @@ Header .logo{
         margin-left: 40px;
     }
     /*Header*/
+
+      /*Hero*/
+      .Hero{
+        padding-top: 300px;
+        padding-bottom: 200px;
+    }
+    /*Hero*/
 
 }
