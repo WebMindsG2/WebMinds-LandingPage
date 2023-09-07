@@ -163,6 +163,68 @@ Header .logo{
 }
 /*AboutUs*/
 
+/*Host*/
+.Host{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    position: relative;
+    background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.6),
+            rgba(0,0,0,0.1)
+    ),
+    url('guest-host-image/host.jpg');
+
+}
+
+.Host .container{
+    max-width: 900px;
+    position: relative;
+    z-index: 2;
+}
+
+.capa{
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #1c1c1d;
+    opacity: 0.5;
+
+}
+
+.host_benefits{
+
+    text-align: center;
+    background-color: #F6EB0F;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    height: auto;
+    width: 320px;
+    box-shadow: 10px 10px 15px black;
+
+}
+
+.host_benefits h1{
+    margin-bottom: 10px;
+}
+
+/*Host*/
+
 @media (min-width: 810px) {
 
      /*Header*/
